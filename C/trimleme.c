@@ -19,7 +19,7 @@ void sil(char s[]) {
 	strcpy(s, k);
 }
 int main(void) {
-	char s[] = " mesut  naber             hey  yo";
+	char s[] = "      mesut  naber             hey  yo";
 	sil(s);
 	//~ strcpy(s, k);
 	printf("%s",s);
