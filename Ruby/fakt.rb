@@ -9,4 +9,5 @@ def fakt(sayi)
 		"\nNegatif tamsayilarin faktoriyel hesaplamasi yapilamaz.."
 	end
 end
-puts fakt(6)
+puts fakt(-5)
+puts fakt(2)
