@@ -31,9 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.button14 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button3 = new System.Windows.Forms.Button();
@@ -47,9 +49,6 @@
             this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -60,6 +59,8 @@
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -84,6 +85,12 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button16 = new System.Windows.Forms.Button();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.button12 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -98,9 +105,6 @@
             this.maskedTextBox5 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox6 = new System.Windows.Forms.MaskedTextBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
@@ -112,15 +116,15 @@
             this.textBox17 = new System.Windows.Forms.TextBox();
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage2.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -133,15 +137,17 @@
             this.tabControl1.Location = new System.Drawing.Point(-1, 1);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(965, 706);
+            this.tabControl1.Size = new System.Drawing.Size(965, 684);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.tabPage1.Controls.Add(this.button15);
+            this.tabPage1.Controls.Add(this.button11);
+            this.tabPage1.Controls.Add(this.linkLabel1);
             this.tabPage1.Controls.Add(this.button14);
             this.tabPage1.Controls.Add(this.button13);
-            this.tabPage1.Controls.Add(this.pictureBox1);
             this.tabPage1.Controls.Add(this.button4);
             this.tabPage1.Controls.Add(this.groupBox2);
             this.tabPage1.Controls.Add(this.groupBox1);
@@ -149,10 +155,42 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(957, 680);
+            this.tabPage1.Size = new System.Drawing.Size(957, 658);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Malzeme Kayıt";
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(903, 614);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(51, 23);
+            this.button15.TabIndex = 15;
+            this.button15.Text = "Sıfırla";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button11.Location = new System.Drawing.Point(744, 462);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(96, 35);
+            this.button11.TabIndex = 14;
+            this.button11.Text = "ÇIKIŞ";
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(881, 298);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(70, 13);
+            this.linkLabel1.TabIndex = 13;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "www.trt.net.tr";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // button14
             // 
@@ -173,15 +211,6 @@
             this.button13.Text = "<<";
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(659, 365);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(112, 64);
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
             // 
             // button4
             // 
@@ -207,9 +236,6 @@
             this.groupBox2.Controls.Add(this.maskedTextBox3);
             this.groupBox2.Controls.Add(this.maskedTextBox4);
             this.groupBox2.Controls.Add(this.textBox10);
-            this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Controls.Add(this.label13);
-            this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Controls.Add(this.label15);
             this.groupBox2.Controls.Add(this.label16);
             this.groupBox2.Controls.Add(this.label17);
@@ -231,7 +257,7 @@
             // 
             this.button3.Location = new System.Drawing.Point(149, 297);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 32);
+            this.button3.Size = new System.Drawing.Size(85, 32);
             this.button3.TabIndex = 27;
             this.button3.Text = "Sil";
             this.button3.UseVisualStyleBackColor = true;
@@ -239,9 +265,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(41, 297);
+            this.button2.Location = new System.Drawing.Point(31, 297);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 32);
+            this.button2.Size = new System.Drawing.Size(85, 32);
             this.button2.TabIndex = 26;
             this.button2.Text = "Düzenle";
             this.button2.UseVisualStyleBackColor = true;
@@ -325,37 +351,6 @@
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(128, 21);
             this.textBox10.TabIndex = 9;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Arial Black", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.Location = new System.Drawing.Point(6, 29);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(13, 15);
-            this.label12.TabIndex = 17;
-            this.label12.Text = "*";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Arial Black", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.Location = new System.Drawing.Point(6, 56);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(13, 15);
-            this.label13.TabIndex = 16;
-            this.label13.Text = "*";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Arial Black", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label14.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label14.Location = new System.Drawing.Point(6, 112);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(13, 15);
-            this.label14.TabIndex = 15;
-            this.label14.Text = "*";
             // 
             // label15
             // 
@@ -478,6 +473,26 @@
             this.groupBox1.Text = "Ekleme";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(276, 166);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(19, 23);
+            this.button10.TabIndex = 27;
+            this.button10.Text = "S";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(251, 166);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(19, 23);
+            this.button9.TabIndex = 26;
+            this.button9.Text = "E";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // textBox6
             // 
             this.textBox6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
@@ -530,6 +545,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 23);
             this.comboBox1.TabIndex = 19;
+            this.comboBox1.Text = "Malzeme Seçiniz";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // maskedTextBox2
@@ -664,9 +680,9 @@
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(85, 287);
+            this.button1.Location = new System.Drawing.Point(124, 296);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 33);
+            this.button1.Size = new System.Drawing.Size(121, 33);
             this.button1.TabIndex = 1;
             this.button1.Text = "Ekle";
             this.button1.UseVisualStyleBackColor = true;
@@ -700,6 +716,10 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.tabPage2.Controls.Add(this.button16);
+            this.tabPage2.Controls.Add(this.groupBox5);
+            this.tabPage2.Controls.Add(this.linkLabel2);
+            this.tabPage2.Controls.Add(this.button12);
             this.tabPage2.Controls.Add(this.pictureBox2);
             this.tabPage2.Controls.Add(this.button7);
             this.tabPage2.Controls.Add(this.button8);
@@ -709,10 +729,74 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(957, 680);
+            this.tabPage2.Size = new System.Drawing.Size(957, 658);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Arama";
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+            // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button16.Location = new System.Drawing.Point(464, 319);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(96, 35);
+            this.button16.TabIndex = 18;
+            this.button16.Text = "Rapor";
+            this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click_1);
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.button18);
+            this.groupBox5.Controls.Add(this.button17);
+            this.groupBox5.Location = new System.Drawing.Point(659, 458);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(270, 87);
+            this.groupBox5.TabIndex = 17;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Yazdırma";
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(153, 35);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(91, 32);
+            this.button18.TabIndex = 2;
+            this.button18.Text = "Yazdır";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
+            // 
+            // button17
+            // 
+            this.button17.Location = new System.Drawing.Point(22, 35);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(99, 32);
+            this.button17.TabIndex = 1;
+            this.button17.Text = "Önizleme";
+            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Location = new System.Drawing.Point(881, 298);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(70, 13);
+            this.linkLabel2.TabIndex = 16;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "www.trt.net.tr";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button12.Location = new System.Drawing.Point(464, 410);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(96, 35);
+            this.button12.TabIndex = 15;
+            this.button12.Text = "ÇIKIŞ";
+            this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // pictureBox2
             // 
@@ -765,9 +849,6 @@
             this.groupBox3.Controls.Add(this.maskedTextBox5);
             this.groupBox3.Controls.Add(this.maskedTextBox6);
             this.groupBox3.Controls.Add(this.textBox16);
-            this.groupBox3.Controls.Add(this.label24);
-            this.groupBox3.Controls.Add(this.label25);
-            this.groupBox3.Controls.Add(this.label26);
             this.groupBox3.Controls.Add(this.label27);
             this.groupBox3.Controls.Add(this.label31);
             this.groupBox3.Controls.Add(this.label32);
@@ -779,7 +860,7 @@
             this.groupBox3.Controls.Add(this.textBox17);
             this.groupBox3.Controls.Add(this.textBox18);
             this.groupBox3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(191, 312);
+            this.groupBox3.Location = new System.Drawing.Point(145, 298);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(262, 349);
             this.groupBox3.TabIndex = 7;
@@ -864,37 +945,6 @@
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(128, 21);
             this.textBox16.TabIndex = 9;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Arial Black", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label24.Location = new System.Drawing.Point(6, 29);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(13, 15);
-            this.label24.TabIndex = 17;
-            this.label24.Text = "*";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Arial Black", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label25.Location = new System.Drawing.Point(6, 56);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(13, 15);
-            this.label25.TabIndex = 16;
-            this.label25.Text = "*";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Arial Black", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label26.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label26.Location = new System.Drawing.Point(6, 112);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(13, 15);
-            this.label26.TabIndex = 15;
-            this.label26.Text = "*";
             // 
             // label27
             // 
@@ -1002,44 +1052,40 @@
             this.dataGridView2.Size = new System.Drawing.Size(945, 286);
             this.dataGridView2.TabIndex = 2;
             // 
-            // button9
+            // printDocument1
             // 
-            this.button9.Location = new System.Drawing.Point(251, 166);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(19, 23);
-            this.button9.TabIndex = 26;
-            this.button9.Text = "E";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
             // 
-            // button10
+            // printPreviewDialog1
             // 
-            this.button10.Location = new System.Drawing.Point(276, 166);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(19, 23);
-            this.button10.TabIndex = 27;
-            this.button10.Text = "S";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
+            this.printPreviewDialog1.AutoScrollMargin = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.ClientSize = new System.Drawing.Size(400, 300);
+            this.printPreviewDialog1.Enabled = true;
+            this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
+            this.printPreviewDialog1.Name = "printPreviewDialog1";
+            this.printPreviewDialog1.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(968, 750);
+            this.ClientSize = new System.Drawing.Size(968, 693);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = "TRT Malzeme Stok VeriTabanı";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tabPage1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
@@ -1090,9 +1136,6 @@
         private System.Windows.Forms.MaskedTextBox maskedTextBox3;
         private System.Windows.Forms.MaskedTextBox maskedTextBox4;
         private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
@@ -1103,7 +1146,6 @@
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.TextBox textBox14;
@@ -1114,9 +1156,6 @@
         private System.Windows.Forms.MaskedTextBox maskedTextBox5;
         private System.Windows.Forms.MaskedTextBox maskedTextBox6;
         private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
@@ -1135,6 +1174,18 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button17;
+        private System.Drawing.Printing.PrintDocument printDocument1;
+        private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+        private System.Windows.Forms.Button button16;
+       
     }
 }
 

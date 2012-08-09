@@ -14,7 +14,7 @@ namespace TelefonRehberi
 {
     public partial class Form1 : Form
     {
-        SqlConnection baglanti;             // bağlantılar için gerekli olan tanımlar yapıldı.
+        SqlConnection baglanti;             //sql bağlantılar için gerekli olan tanımlar yapıldı.
         SqlConnection connection1;
         SqlDataReader oku;
         SqlDataReader oku2;
@@ -297,7 +297,7 @@ namespace TelefonRehberi
 
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            comboBox4.Text = dataGridView2.CurrentRow.Cells[7].Value.ToString();
+           // comboBox4.Text = dataGridView2.CurrentRow.Cells[7].Value.ToString();
             textBox21.Text = dataGridView2.CurrentRow.Cells[0].Value.ToString();
             textBox20.Text = dataGridView2.CurrentRow.Cells[1].Value.ToString();
             maskedTextBox11.Text = dataGridView2.CurrentRow.Cells[2].Value.ToString();
@@ -497,11 +497,11 @@ namespace TelefonRehberi
         {
             baglanti = new SqlConnection();
             baglanti.ConnectionString = "Data Source=localhost;Initial Catalog=telefonrehberi;Integrated Security=True";  // database ile bağlantı sağlandı(database ismi telefonrehberi)
-            baglanti.Open();                                           //bapğlantı açıldı
+            baglanti.Open();    //bapğlantı açıldı
             dataset = new DataSet();
             adaptor = new SqlDataAdapter("select * from psilinen", baglanti); 
             adaptor.Fill(dataset, "psilinen");
-            dataGridView1.DataSource = dataset.Tables[0];               // datagriedview bağlantısı
+            dataGridView1.DataSource = dataset.Tables[0];  // datagriedview bağlantısı
             komut = new SqlCommand();
             komut.Connection = baglanti;
             groupBox1.Hide();

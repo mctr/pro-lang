@@ -27,7 +27,7 @@ namespace mssqlbaglanti
         {
             if (textBox1.Text == "admin" && textBox2.Text == "12345")
             {
-                frm.Show(); //Button'a tıkladığımız zaman form2'ye geçmesini sağlıyoruz
+                frm.Show();//Button'a tıkladığımız zaman form2'ye geçmesini sağlıyoruz
                 this.Hide(); ; //Form2 açıldıktan sonra FORM1'ri gizliyoruz.
             }
             else

@@ -184,5 +184,22 @@ namespace mssqlbaglanti
             //komut.Connection = deneme;
         }
 
+        private void button7_Click(object sender, EventArgs e)
+        {
+            DialogResult cevap;
+
+            cevap = MessageBox.Show("Kayıtları kalıcı olarak silmek istediğinizden eminmisiniz?", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (cevap == DialogResult.Yes)
+            {
+                SqlConnection baglanti3 = new SqlConnection("Data Source=localhost;Initial Catalog=deneme;Integrated Security=True");
+                baglanti3.Open();
+                SqlCommand kmt = new SqlCommand("delete from ögrenci", baglanti3);
+                kmt.ExecuteNonQuery();
+                MessageBox.Show("Başarıyla Sıfırlandı", "Bilgi");
+                baglanti3.Close();
+            }
+        }
+
     }
 }
