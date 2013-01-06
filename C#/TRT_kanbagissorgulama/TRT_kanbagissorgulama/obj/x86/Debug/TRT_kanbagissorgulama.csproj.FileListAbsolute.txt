@@ -1,0 +1,29 @@
+D:\Calismalarim\C# CALISMALARIM\TRT_kanbagissorgulama\TRT_kanbagissorgulama\bin\Debug\TRT_kanbagissorgulama.exe
+D:\Calismalarim\C# CALISMALARIM\TRT_kanbagissorgulama\TRT_kanbagissorgulama\bin\Debug\TRT_kanbagissorgulama.pdb
+D:\Calismalarim\C# CALISMALARIM\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Calismalarim\C# CALISMALARIM\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\TRT_kanbagissorgulama.Form1.resources
+D:\Calismalarim\C# CALISMALARIM\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\TRT_kanbagissorgulama.Properties.Resources.resources
+D:\Calismalarim\C# CALISMALARIM\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Calismalarim\C# CALISMALARIM\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Calismalarim\C# CALISMALARIM\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\TRT_kanbagissorgulama.exe
+D:\Calismalarim\C# CALISMALARIM\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\TRT_kanbagissorgulama.pdb
+C:\Users\Hanbuke\Desktop\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\TRT_kanbagissorgulama.exe
+C:\Users\Hanbuke\Desktop\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\TRT_kanbagissorgulama.pdb
+C:\Users\Hanbuke\Desktop\TRT_kanbagissorgulama\TRT_kanbagissorgulama\bin\Debug\TRT_kanbagissorgulama.exe
+C:\Users\Hanbuke\Desktop\TRT_kanbagissorgulama\TRT_kanbagissorgulama\bin\Debug\TRT_kanbagissorgulama.pdb
+C:\Users\Hanbuke\Desktop\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Hanbuke\Desktop\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\TRT_kanbagissorgulama.Form1.resources
+C:\Users\Hanbuke\Desktop\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\TRT_kanbagissorgulama.Properties.Resources.resources
+C:\Users\Hanbuke\Desktop\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Hanbuke\Desktop\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\GenerateResource.write.1.tlog
+I:\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\TRT_kanbagissorgulama.exe
+I:\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\TRT_kanbagissorgulama.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\TRT_kanbagissorgulama.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\TRT_kanbagissorgulama.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TRT_kanbagissorgulama\TRT_kanbagissorgulama\bin\Debug\TRT_kanbagissorgulama.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TRT_kanbagissorgulama\TRT_kanbagissorgulama\bin\Debug\TRT_kanbagissorgulama.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\TRT_kanbagissorgulama.Form1.resources
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\TRT_kanbagissorgulama.Properties.Resources.resources
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TRT_kanbagissorgulama\TRT_kanbagissorgulama\obj\x86\Debug\GenerateResource.write.1.tlog

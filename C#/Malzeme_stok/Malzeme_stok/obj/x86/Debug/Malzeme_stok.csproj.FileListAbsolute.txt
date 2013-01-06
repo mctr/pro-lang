@@ -1,0 +1,11 @@
+C:\Users\lenovo\documents\visual studio 2010\Projects\Malzeme_stok\Malzeme_stok\obj\x86\Debug\Malzeme_stok.exe
+C:\Users\lenovo\documents\visual studio 2010\Projects\Malzeme_stok\Malzeme_stok\obj\x86\Debug\Malzeme_stok.pdb
+C:\Users\lenovo\documents\visual studio 2010\Projects\Malzeme_stok\Malzeme_stok\bin\Debug\Malzeme_stok.exe
+C:\Users\lenovo\documents\visual studio 2010\Projects\Malzeme_stok\Malzeme_stok\bin\Debug\Malzeme_stok.pdb
+C:\Users\lenovo\documents\visual studio 2010\Projects\Malzeme_stok\Malzeme_stok\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\lenovo\documents\visual studio 2010\Projects\Malzeme_stok\Malzeme_stok\obj\x86\Debug\Malzeme_stok.Form1.resources
+C:\Users\lenovo\documents\visual studio 2010\Projects\Malzeme_stok\Malzeme_stok\obj\x86\Debug\Malzeme_stok.Properties.Resources.resources
+C:\Users\lenovo\documents\visual studio 2010\Projects\Malzeme_stok\Malzeme_stok\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\lenovo\documents\visual studio 2010\Projects\Malzeme_stok\Malzeme_stok\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\lenovo\documents\visual studio 2010\Projects\Malzeme_stok\Malzeme_stok\bin\Debug\Malzeme_stok.exe.config
+C:\Users\lenovo\documents\visual studio 2010\Projects\Malzeme_stok\Malzeme_stok\obj\x86\Debug\Malzeme_stok.Form2.resources

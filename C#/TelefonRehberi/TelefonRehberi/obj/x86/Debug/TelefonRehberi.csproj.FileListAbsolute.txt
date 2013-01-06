@@ -1,0 +1,28 @@
+C:\Users\Musti\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\bin\Debug\TelefonRehberi.exe
+C:\Users\Musti\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\bin\Debug\TelefonRehberi.pdb
+C:\Users\Musti\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Musti\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\obj\x86\Debug\TelefonRehberi.Form1.resources
+C:\Users\Musti\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\obj\x86\Debug\TelefonRehberi.Properties.Resources.resources
+C:\Users\Musti\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Musti\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Musti\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\obj\x86\Debug\TelefonRehberi.exe
+C:\Users\Musti\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\obj\x86\Debug\TelefonRehberi.pdb
+C:\Users\Musti\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\bin\Debug\TelefonRehberi.exe.manifest
+C:\Users\Musti\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\bin\Debug\TelefonRehberi.application
+C:\Users\Musti\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\obj\x86\Debug\TelefonRehberi.exe.manifest
+C:\Users\Musti\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\obj\x86\Debug\TelefonRehberi.application
+C:\Users\lenovo\Desktop\TelefonRehberi\TelefonRehberi\obj\x86\Debug\TelefonRehberi.exe
+C:\Users\lenovo\Desktop\TelefonRehberi\TelefonRehberi\obj\x86\Debug\TelefonRehberi.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\obj\x86\Debug\TelefonRehberi.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\obj\x86\Debug\TelefonRehberi.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\obj\x86\Debug\TelefonRehberi.Form1.resources
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\obj\x86\Debug\TelefonRehberi.Properties.Resources.resources
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\bin\Debug\TelefonRehberi.exe.manifest
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\bin\Debug\TelefonRehberi.application
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\bin\Debug\TelefonRehberi.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\bin\Debug\TelefonRehberi.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\obj\x86\Debug\TelefonRehberi.exe.manifest
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\TelefonRehberi\TelefonRehberi\obj\x86\Debug\TelefonRehberi.application

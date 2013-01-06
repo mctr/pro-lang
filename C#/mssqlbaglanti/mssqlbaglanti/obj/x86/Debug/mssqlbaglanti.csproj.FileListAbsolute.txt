@@ -1,0 +1,10 @@
+c:\users\lenovo\documents\visual studio 2010\Projects\mssqlbaglanti\mssqlbaglanti\bin\Debug\mssqlbaglanti.exe
+c:\users\lenovo\documents\visual studio 2010\Projects\mssqlbaglanti\mssqlbaglanti\bin\Debug\mssqlbaglanti.pdb
+c:\users\lenovo\documents\visual studio 2010\Projects\mssqlbaglanti\mssqlbaglanti\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2010\Projects\mssqlbaglanti\mssqlbaglanti\obj\x86\Debug\mssqlbaglanti.Form1.resources
+c:\users\lenovo\documents\visual studio 2010\Projects\mssqlbaglanti\mssqlbaglanti\obj\x86\Debug\mssqlbaglanti.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2010\Projects\mssqlbaglanti\mssqlbaglanti\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\lenovo\documents\visual studio 2010\Projects\mssqlbaglanti\mssqlbaglanti\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\lenovo\documents\visual studio 2010\Projects\mssqlbaglanti\mssqlbaglanti\obj\x86\Debug\mssqlbaglanti.exe
+c:\users\lenovo\documents\visual studio 2010\Projects\mssqlbaglanti\mssqlbaglanti\obj\x86\Debug\mssqlbaglanti.pdb
+C:\Users\lenovo\documents\visual studio 2010\Projects\mssqlbaglanti\mssqlbaglanti\obj\x86\Debug\mssqlbaglanti.Form2.resources
