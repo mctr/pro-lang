@@ -42,24 +42,24 @@ public class ilkservlet extends HttpServlet {
 						"</style>" +
 						"</head></body>");
 		
-		// Ögrenci islemleri
+		// Ögrenci iþlemleri
 		Ogrenci student = new Ogrenci();
-		student.Ogrenci_Tanimla(10060318, "Bilgisayar Mühendisligi", 3);
-		out.println("<div> Ögrencimizin");
+		student.Ogrenci_Tanýmla(10060318, "Bilgisayar Mühendisligi", 3);
+		out.println("<div> Öðrencimizin");
 		out.println("<ul>");
 		out.println(
 							"<li>Öðrenci Nosu : " + student.getOgrenciNosu() + "</li>" +
 							"<li>Bölümü : " + student.getBolum() + "</li>" +
-							"<li>Sinifi : " + student.getsinif() + "</li></ul>" +
+							"<li>Sýnýfý : " + student.getsinif() + "</li></ul>" +
 							student.derse_gir() + "</br>" +
 							student.kantine_gider()
 							);
 		out.println("</div>");
 		
-		//Hoca islemleri
+		//Hoca iþlemleri
 		Hoca teacher = new Hoca();
-		teacher.Hoca_Tanimla(123456, "Matematik");
-		out.println("<div> Hocamizin");
+		teacher.Hoca_Tanýmla(123456, "Matematik");
+		out.println("<div> Hocamýzýn");
 		out.println("<ul>");
 		out.println(
 							"<li>H.Sicil Nosu :" + teacher.getSicilNo() + "</li>" +
@@ -69,7 +69,7 @@ public class ilkservlet extends HttpServlet {
 					);
 		out.println("</div>");
 		
-		//Memur islemleri
+		//Memur iþlemleri
 		Memur officer = new Memur();
 		officer.Memur_Tanýmla(125478, "Özel kalem");
 		out.println("<div> Memurumuzun");
