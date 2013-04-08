@@ -1,0 +1,3 @@
+	Q1	Q2	Q3	Q4	Total
+Apples	78	87	92	29	=SUM(B2:E2)
+Oranges	77	86	93	30	=SUM(B3:E3)
