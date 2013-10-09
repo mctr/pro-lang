@@ -10,7 +10,7 @@ func main() {
 	word["door"] = "Kapı"
 	word["windows"] = "Pencere"
 	word["computer"] = "Bilgisayar"
-	
+
 	fmt.Println(word["yellow"])
 	fmt.Println(word["red"])
 }
