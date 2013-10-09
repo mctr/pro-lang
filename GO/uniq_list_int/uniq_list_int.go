@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	verilen := []int{0}
-	args := []int{
+	result := []int {0}
+	int_list := []int {
 		2,
 		3,
 		5,
@@ -14,9 +14,9 @@ func main() {
 		3,
 		5,
 	}
-    	for _, v := range args {
+    	for _, v := range int_list {
 		state := true
-        	for _, k := range verilen {
+        	for _, k := range result {
 			if v != k {
 				state = false
 			} else if v == k {
@@ -25,9 +25,9 @@ func main() {
 			}
 		}
 		if state == false {
-				verilen = append(verilen, v)
+				result = append(result, v)
 			}
     	}
-	verilen = verilen[1:]
-    	fmt.Println(verilen)
+	result = result[1:]
+    	fmt.Println(result)
 }
