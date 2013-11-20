@@ -1,3 +1,6 @@
+#! usr/bin/ruby
+# -*- coding:utf-8 -*-
+
 class Stack
 	def initialize
 		@liste = []
