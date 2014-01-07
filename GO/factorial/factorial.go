@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func factorial(x uint) uint {
+func factorial(x int) int {
 	if x == 0 {
 		return 1
 	}
@@ -11,5 +11,10 @@ func factorial(x uint) uint {
 }
 
 func main() {
-	fmt.Println(factorial(5))
+
+	fmt.Print("Faktöriyel almak istediginiz sayıyı Giriniz : ")
+	var i int
+	fmt.Scanf("%d", &i)
+	//result := factorial(i)
+	fmt.Println(factorial(i))
 }
