@@ -22,8 +22,16 @@ def main(): # n = 100 için işlem yapacagız.
 		collected_money += 1900 * (i)
 
 		aylik_dokum.append(collected_money)
+	
+	collected_money -= 140000 * 50
 
+	for i in range(51, 100):
+    	collected_money += 1900 * 100
+    	aylik_dokum.append(collected_money)
+    
 
 
 	print aylik_dokum
+	print aylik_dokum[len(aylik_dokum) - 1]
+
 
