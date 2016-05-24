@@ -6,10 +6,10 @@
 
 def main(): # n = 100 için işlem yapacagız.
 	n = 100
-	first_charge = 16.000
+	first_charge = 7000
 	aylik_dokum = []
 	total_first_charge = first_charge * n
-	gived_charge = 140.000
+	gived_charge = 140000
 
 	m = n / 2
 
